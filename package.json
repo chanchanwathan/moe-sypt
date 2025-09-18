@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "SYPT Timer",
   "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chanchanwathan/moe-sypt.git"
@@ -15,5 +13,9 @@
   "bugs": {
     "url": "https://github.com/chanchanwathan/moe-sypt/issues"
   },
-  "homepage": "https://github.com/chanchanwathan/moe-sypt#readme"
+  "homepage": "https://github.com/chanchanwathan/moe-sypt#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.2"
+  }
 }
